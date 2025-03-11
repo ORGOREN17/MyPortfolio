@@ -240,8 +240,8 @@ ul#nav li.current a {
 }
 #about .profile-pic {
   position: relative;
-  width: 200x;
-  height: 200px;
+  width: 300px;
+  height: 230px;
   border-radius: 50%;
 }
 #about .contact-details {
