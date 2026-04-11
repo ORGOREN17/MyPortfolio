@@ -6,22 +6,27 @@ class Resume extends Component {
       var skillmessage = this.props.data.skillmessage;
       var education = this.props.data.education.map(function (education) {
         return (
-          <div key={education.school}>
+          <div key={education.school} className="item">
             <h3 style={{ color: "white" }}>{education.school}</h3>
             <p className="info">{education.degree}</p>
           </div>
         );
       });
-      var work = this.props.data.work.map(function (work) {
+      var work = this.props.data.work.map(function (work, index) {
         return (
-          <div key={work.company}>
-            <h3 style={{ color: "white" }}>{work.company}</h3>
-            <p className="info">
-              {work.title}
-              <span style={{ color: "white" }}>&bull;</span>{" "}
-              <em className="date">{work.years}</em>
-            </p>
-          </div>
+          <li key={work.company + index} style={{ marginBottom: "0.75rem" }}>
+            <span style={{ color: "white", fontWeight: "600" }}>
+              {work.company}
+            </span>
+            {work.title ? (
+              <span style={{ color: "white" }}> — {work.title}</span>
+            ) : null}
+            {work.years ? (
+              <div style={{ color: "white", marginTop: "0.2rem" }}>
+                {work.years}
+              </div>
+            ) : null}
+          </li>
         );
       });
       var military = this.props.data.military.map(function (military) {
@@ -71,13 +76,16 @@ class Resume extends Component {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <span style={{ color: "white" }}>
-                  {education}
-                  &bull; Major: Digital Innovation &bull; Expected
-                  graduation - 2026
-                 
-                  <br /> &bull; Skills: SQL, Excel, Tableau, MS Project, Monday.com, Python, Java, C++
-                </span>
+                {education}
+                <ul style={{ listStyleType: "disc", paddingLeft: "1.4rem" }}>
+                  <li style={{ color: "white" }}>Major: Digital Innovation</li>
+                  <li style={{ color: "white" }}>
+                    Expected graduation - 2026
+                  </li>
+                  <li style={{ color: "white" }}>
+                    Skills: SQL, Excel, Tableau, MS Project, Monday.com, Python, Java, C++
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -86,14 +94,14 @@ class Resume extends Component {
         <div className="row work">
           <div className="three columns header-col">
             <h1>
-              <span style={{ color: "white" }}>Social Activities</span>
+              <span style={{ color: "white" }}>Volunteering</span>
             </h1>
           </div>
 
           <div className="nine columns main-col">
-            <span style={{ color: "white" }}>
+            <ul style={{ listStyleType: "disc", paddingLeft: "1.4rem" }}>
               {work}
-            </span>
+            </ul>
           </div>
         </div>
 

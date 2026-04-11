@@ -13,7 +13,7 @@
       "state": "Israel"
     },
     "website": "http://www.asafrdt.com",
-    "resumedownload": "https://drive.google.com/file/d/1vLqBgZ_8B1f4gkTbxT3SQepaDBEAVYCW/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1kvcn9UcNCxn9CJl36F-YtEN_YUrPC4Cy/view?usp=sharing",
     "social": [
       {
         "name": "linkedin",
@@ -36,14 +36,14 @@
     ],
     "work": [
       {
-        "company": "Investment Club",
+        "company": "At-Risk Youth Educator & Soccer Coach",
         "title": "",
-        "years": "participating in discussions on finance, markets, and investment strategies.•"
+        "years": "Shahar Shivyon"
       },
       {
-        "company": "Mentorship Program",
+        "company": "Instructor & Lecturer",
         "title": "",
-        "years": "Mentor for first-year students as part of the college’s mentorship program."
+        "years": "Magen David Adom (MDA)"
       }
     ],
     "military": [
@@ -93,6 +93,12 @@
       {
         "title": "Excel Project",
         "category": "Excel dashboard analyzing Northwind sales, customer behavior, and product trends for data-driven decisions.",
+        "image": "excel.webp",
+        "url": ""
+      },
+      {
+        "title": "SQL Project",
+        "category": "SQLLLL.",
         "image": "excel.webp",
         "url": "The project focuses on analyzing the Northwind database using Tableau. It presents insights into sales, customers, and products through clear and interactive dashboards. The project enables identifying key trends, analyzing performance by categories, and spotting opportunities to improve sales."
       }
