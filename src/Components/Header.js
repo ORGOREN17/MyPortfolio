@@ -67,14 +67,14 @@ class Header extends Component {
             <h1 className="responsive-headline">{name}</h1>
             <h2>
               <span>
-              I’m a B.Sc. student in Information Systems at The Academic College of Tel-Aviv
-                {" "}
+                Product R&D Student at Papaya Global and Data Analyst at CAL,
+                combining product, tech, and data to drive business impact.
               </span>
               <br />
-            
             </h2>
             <h2>
-            Seeking a student role in Data Analysis, Implementation Consultant, and PMO.
+              Final-year Information Systems student seeking a full-time role in
+              Product & Project Management. Triathlete mindset.
             </h2>
             <h3>
               <span></span>
