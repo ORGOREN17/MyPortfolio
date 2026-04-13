@@ -94,13 +94,13 @@
         "title": "Excel Project",
         "category": "Created a dynamic Excel dashboard based on the Northwind database, transforming sales and customer data into clear insights to support decision-making.",
         "image": "excel.webp",
-        "url": ""
+        "url": "https://docs.google.com/spreadsheets/d/1GESHdJiFS_tJ-7FnS1ZMseJ56Bt_0z4w/edit?usp=sharing&ouid=104961863799480914290&rtpof=true&sd=true"
       },
       {
         "title": "SQL Project",
         "category": "Queried and analyzed the Northwind database using SQL to extract key insights on sales and customer behavior.",
         "image": "SqlLogo.webp",
-        "url": "The project focuses on analyzing the Northwind database using Tableau. It presents insights into sales, customers, and products through clear and interactive dashboards. The project enables identifying key trends, analyzing performance by categories, and spotting opportunities to improve sales."
+        "url": "https://github.com/ORGOREN17/SQL-Project.git"
       }
       
     ]
